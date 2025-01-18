@@ -19,12 +19,5 @@ Displays the results numerically and visually (as dice images).
 Intuitive input and button interaction.
 Styled with modern aesthetics using CSS.
 
-## File Structure
 
-/project-folder
-
-├── index.html      # Main HTML file
-├── style.css       # CSS file for styling
-├── index.js        # JavaScript file for functionality
-└── dice_images/    # Folder containing dice images (1.png, 2.png, ..., 6.png)
 
