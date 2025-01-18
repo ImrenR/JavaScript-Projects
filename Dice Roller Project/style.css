@@ -1,0 +1,40 @@
+#container {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button{
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(210, 100%, 50%);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    background-color:hsl(210, 100%, 65%) ;
+  }
+  &:active{
+    background-color:hsl(210, 100%, 85%) ;
+  }
+}
+input{
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+
+}
+#diceImages{
+  margin: 25px;
+Dice Roller Dem
+
+}
+#diceImages img{
+  width: 150px;
+  margin: 5px;
+
+}
