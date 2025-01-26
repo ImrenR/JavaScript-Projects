@@ -14,6 +14,10 @@ https://github.com/user-attachments/assets/b744ff19-3bd4-4e24-9293-1d84222c4100
 
 https://github.com/user-attachments/assets/3bdb951f-b50a-4014-a4db-751e76e19be9
 
+## 4- Rock-Paper-Scissors Game
+
+https://github.com/user-attachments/assets/992950f4-dd34-4902-88e6-a2534ac1fdbf
+
 # 1) Dice Roller Project 
 
 ## Project Overview
@@ -79,6 +83,7 @@ This project is a simple calculator built with HTML, CSS, and JavaScript. The ca
 ###  index.js: The JavaScript logic for functionality.
 
 ## Code Overview
+
 ### HTML
 Contains a grid layout for buttons inside a #keys div.
 Includes an input field (#display) to show the current calculation or result.
@@ -91,5 +96,53 @@ clearDisplay(): Clears the display value.
 calculate(): Evaluates the entered expression and updates the display.
 
 
+# 4) Rock-Paper-Scissors Game
+This is a simple implementation of the classic "Rock-Paper-Scissors" game using HTML, CSS, and JavaScript. Players can interact with the game by selecting one of the three options (Rock, Paper, or Scissors), and the computer will make a random choice. The winner is determined based on the traditional rules of the game.
 
+## Features
 
+User-friendly interface with buttons representing Rock, Paper, and Scissors.
+
+Displays the player’s choice, the computer’s choice, and the game result.
+
+Responsive design and interactive hover effects for a better user experience.
+
+Simple, clean code structure for easy understanding and customization.
+
+## File Structure 
+
+### 1. index.html
+
+The main HTML file for the game. Contains:
+
+Title: Rock-Paper-Scissors
+
+Buttons for selecting choices.
+
+Display sections for the player’s choice, the computer’s choice, and the result.
+
+### 2. style.css
+
+The CSS file for styling the game interface. Includes:
+
+Styling for fonts, buttons, and layout.
+
+Hover effects for buttons.
+
+### 3. index.js
+
+The JavaScript file contains the game logic:
+
+Generates a random choice for the computer.
+
+Compares the player’s choice and the computer’s choice to determine the result.
+
+Updates the game display based on the results.
+
+## How to Use
+
+Open the index.html file in your browser.
+
+Click one of the buttons (👊 for Rock, 🤚 for Paper, or ✌️ for Scissors) to make your choice.
+
+The computer’s choice and the result will be displayed.
