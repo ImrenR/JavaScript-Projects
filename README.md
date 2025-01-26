@@ -18,6 +18,10 @@ https://github.com/user-attachments/assets/3bdb951f-b50a-4014-a4db-751e76e19be9
 
 https://github.com/user-attachments/assets/992950f4-dd34-4902-88e6-a2534ac1fdbf
 
+## 5- Weather App Program
+
+https://github.com/user-attachments/assets/d463a482-e385-4c3c-8b4c-1f57f4651b1c
+
 # 1) Dice Roller Project 
 
 ## Project Overview
@@ -146,3 +150,101 @@ Open the index.html file in your browser.
 Click one of the buttons (👊 for Rock, 🤚 for Paper, or ✌️ for Scissors) to make your choice.
 
 The computer’s choice and the result will be displayed.
+
+
+# 5) Weather App Program
+
+This project is a simple weather application that fetches weather data for a given city using the OpenWeatherMap API and displays it in a styled card format.
+
+## Features
+
+Users can enter the name of a city to retrieve current weather information.
+
+Weather data includes:
+
+  - City name
+  - Temperature (in Fahrenheit)
+  - Humidity percentage
+  - Weather description
+  - Weather icon (emoji) based on conditions
+
+Error handling for invalid city names or other issues.
+
+Responsive and clean design.
+
+## Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
+
+OpenWeatherMap API
+
+## Setup Instructions
+
+Clone the repository or download the files.
+
+Navigate to the project directory.
+
+Replace the apiKey variable in index.js with your OpenWeatherMap API key.
+
+Open index.html in your browser to run the application.
+
+## File Structure
+
+. index.html: The main HTML structure of the application.
+
+. style.css: Contains all the styles for the application.
+
+. index.js: Handles API calls and dynamic content updates.
+
+## How It Works
+
+1- Enter the city name in the input field and click the "Get Weather" button.
+2- The app fetches weather data from OpenWeatherMap API based on the city name.
+3- Weather details are displayed in a card, including:
+
+  - City name
+  - Temperature (converted from Kelvin to Fahrenheit)
+  - Humidity level
+  - Weather description
+  - Weather condition emoji
+
+4- If an error occurs (e.g., invalid city name), an error message is displayed in the card.
+
+## Key Functions
+
+getWeatherData(city): Fetches weather data from OpenWeatherMap API for the provided city.
+
+displayWeatherInfo(data): Dynamically creates and displays weather details in the card.
+
+getWeatherEmoji(weatherId): Returns an emoji representing the current weather condition based on weather ID.
+
+displayError(message): Displays an error message in the card.
+
+## Styling Highlights
+
+Responsive design using flexbox.
+
+Styled form and card with gradients, rounded corners, and shadows.
+
+Large, readable fonts for better user experience.
+
+Hover effect for the submit button.
+
+## API Used
+
+OpenWeatherMap API
+
+Endpoint: https://api.openweathermap.org/data/2.5/weather
+
+Required Parameters:
+
+ - q: City name
+
+ - appid: Your API key
+
+
+
